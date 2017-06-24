@@ -1,4 +1,4 @@
-Log-ger-Output-Dir-*
+Log-ger-Output-DirWriteRotate-*
 .build
 *~
 nytprof*
