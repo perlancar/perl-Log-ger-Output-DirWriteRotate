@@ -35,7 +35,7 @@ sub get_hooks {
 =head1 SYNOPSIS
 
  use Log::ger::Output DirWriteRotate => (
-     name               => 'somedir.log',            # required
+     path               => 'somedir.log',            # required
      filename_pattern   => '%Y-%m-%d-%H%M%S.pid-%{pid}.%{ext}', # optional
      filename_sub       => sub { ... },              # optional
      max_size           => undef,                    # optional
